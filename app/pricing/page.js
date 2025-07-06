@@ -46,32 +46,37 @@ export default function PricingSection() {
     <Rocket className="w-8 h-8 text-green-600 mb-4" />
 
     <h3 className="text-xl font-semibold mb-2 text-[#0A2540]">
-  One-Time Website + Branding
+  Lump Sum 
 </h3>
+ 
 
     <p className="text-3xl font-extrabold text-green-700 mb-1">
       $2,400
-      <span className="text-base font-medium text-[#0A2540] ml-1">One-Time</span>
+      <span className="text-base font-medium text-[#0A2540] ml-1">One-Time</span>  
     </p>
+    <p className="text-sm text-[#0A2540]/70 mb-4 italic">
+     +$25/mo hosting
+      </p>
 
     <p className="text-sm text-[#0A2540]/70 mb-4 italic">
-      Includes full build, brand identity, & launch
+      Includes full build & launch
     </p>
 
-    <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">
-      {[
-        "Custom therapist website (5–7 pages)",
-        "Mobile-optimized, SEO-friendly, & ADA-aware",
-        "Custom logo, color palette & typography",
-        "Visual identity & social media branding kit",
-        "Fully built, launched, and ready to grow",
-      ].map((item, i) => (
-        <li key={i} className="flex items-start space-x-2">
-          <span className="flex-shrink-0 mt-[0.2em] leading-none">✓</span>
-          <span>{item}</span>
-        </li>
-      ))}
-    </ul>
+   <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">
+  {[
+    "Design And Development",
+    "$25/mo Hosting",
+    "$100 fee Per Page after 5",
+    "+$50/mo Unlimited Edits Add-on",
+    "+$250 To Add A Blog",
+  ].map((item, i) => (
+    <li key={i} className="flex items-start space-x-2">
+      <span className="flex-shrink-0 mt-[0.2em] leading-none text-green-600">✓</span>
+      <span>{item}</span>
+    </li>
+  ))}
+</ul>
+
 
     <a
       href="/contact"
@@ -104,13 +109,23 @@ export default function PricingSection() {
     <span className="text-base font-medium text-[#0A2540] ml-1">/mo</span>
   </p>
 
-  <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">
-    <li><span className="text-blue-600 mr-1">✓</span> Custom website designed & built for your business</li>
-    <li><span className="text-blue-600 mr-1">✓</span> Fast, secure hosting with daily backups</li>
-    <li><span className="text-blue-600 mr-1">✓</span> Mobile-optimized, SEO-friendly, & ADA-aware</li>
-    <li><span className="text-blue-600 mr-1">✓</span> Ongoing content edits & tech support (up to 4 updates/month)</li>
-    <li><span className="text-blue-600 mr-1">✓</span> Performance & uptime monitoring</li>
-  </ul>
+ <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">
+  {[
+    "Design And Development",
+    "Includes Hosting",
+    "$100 fee Per Page After 5",
+    "+$250 To Add A Blog",
+    "Unlimited Edits",
+    "24/7 Support",
+    "Lifetime Updates",
+  ].map((item, i) => (
+    <li key={i} className="flex items-start gap-2">
+      <span className="text-blue-600 text-lg leading-none">✓</span>
+      <span className="leading-snug">{item}</span>
+    </li>
+  ))}
+</ul>
+
 
   <a
     href="/contact"

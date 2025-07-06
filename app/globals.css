@@ -32,6 +32,18 @@ html {
   }
 }
 
+.font-oswald{
+  font-family: Oswald, Helvetica, sans-serif;
+}
+
+.font-oswald-light{
+  font-family: Oswald, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+#hero-leading-text{
+   font-family: Oswald, Helvetica, sans-serif;
+}
 
 .animate-wave {
   animation: waveAnimation 20s ease-in-out infinite;

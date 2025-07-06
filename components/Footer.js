@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 export default function Footer() {
   return (
-    <footer id='footer' className="bg-[#0c0f25] text-white py-12 px-6 md:px-12">
+    <footer id='footer' className="font-oswald bg-[#0c0f25] text-white py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
 
         <div>

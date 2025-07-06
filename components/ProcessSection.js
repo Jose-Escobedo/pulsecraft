@@ -6,7 +6,7 @@ export default function ProcessSection() {
   return (
     <section
       id="process"
-      className="relative scroll-mt-24 py-20 px-6 md:px-12 bg-[#f3f3f3fa] text-[#0A2540] overflow-hidden"
+      className="relative font-oswald scroll-mt-24 py-20 px-6 md:px-12 bg-[#f3f3f3fa] text-[#0A2540] overflow-hidden"
     >
       {/* Desktop blob */}
       <img

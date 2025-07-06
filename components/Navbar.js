@@ -12,7 +12,7 @@ export default function Navbar() {
       <Logo />
 
       {/* Desktop Nav */}
-      <div className="hidden lg:flex items-center space-x-6 text-base font-bold tracking-wide">
+      <div className="hidden lg:flex items-center font-oswald space-x-6 text-base font-bold tracking-wide">
         <Link href="/#services" className="py-2 hover:text-[#FCA311] transition">Services</Link>
         <Link href="/#why-us" className="py-2 hover:text-[#FCA311] transition">Why Us</Link>
         <Link href="/#portfolio" className="py-2 hover:text-[#FCA311] transition">Portfolio</Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div
-          className="absolute top-full left-0 w-full bg-[#1D3557]/95 text-white flex flex-col items-center space-y-6 py-6 
+          className="absolute font-oswald top-full left-0 w-full bg-[#1D3557]/95 text-white flex flex-col items-center space-y-6 py-6 
                      border-t border-teal-500/20 shadow-xl backdrop-blur-sm 
                      transition-all duration-300 ease-in-out animate-fade-down lg:hidden"
         >

@@ -21,7 +21,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-[96px] md:scroll-mt-[100px] relative bg-gradient-to-b from-[#e0f7f7] via-[#f3f3f3fa] to-[#f3f3f3fa] text-[#0A2540] py-20 px-6 md:px-12"
+      className="font-oswald scroll-mt-[96px] md:scroll-mt-[100px] relative bg-gradient-to-b from-[#e0f7f7] via-[#f3f3f3fa] to-[#f3f3f3fa] text-[#0A2540] py-20 px-6 md:px-12"
     >
       {/* Blobs container with isolated overflow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">

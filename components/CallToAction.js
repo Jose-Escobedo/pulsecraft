@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function CallToAction() {
   return (
-    <div className="scroll-mt-24 bg-[#f3f3f3fa] text-[#0A2540] pt-20 pb-24 px-6 md:px-12 relative overflow-hidden">
+    <div className="font-oswald scroll-mt-24 bg-[#f3f3f3fa] text-[#0A2540] pt-20 pb-24 px-6 md:px-12 relative overflow-hidden">
       {/* Decorative Background Blob */}
       <div className="absolute -top-20 -right-20 w-96 h-96 bg-[#B3E5FC] rounded-full blur-3xl opacity-30 z-0"></div>
 

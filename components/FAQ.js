@@ -40,7 +40,7 @@ export default function FAQSection() {
   return (
     <section
       id="faq"
-      className="scroll-mt-24 bg-[#0A2540] py-20 px-6 md:px-12"
+      className="font-oswald scroll-mt-24 bg-[#0A2540] py-20 px-6 md:px-12"
     >
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-extrabold text-center text-white mb-12">

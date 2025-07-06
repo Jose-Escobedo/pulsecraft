@@ -41,18 +41,18 @@ export default function Home() {
 
         {/* Hero Content */}
         <div className="max-w-3xl mx-auto z-10">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#0A2540] mb-6 leading-tight">
+          <h1 id='hero-leading-text' className="text-4xl md:text-5xl font-bold text-[#0A2540] mb-6 leading-tight">
             Crafting <span className="text-[#43BCCD]">Stunning Websites</span><br />
             That Grow Your Business
           </h1>
 
-          <p className="text-lg md:text-xl mb-8 text-[#0A2540]">
+          <p className="font-oswald-light text-lg md:text-2xl mb-8 text-[#0A2540]">
             Whether you&apos;re launching a startup, revamping your online presence, or expanding your digital reach, Pulsecraft builds modern, professional websites tailored to your unique needs.
           </p>
 
           {/* Staggered Motion List */}
           <motion.ul
-            className="text-sm md:text-base mb-8 space-y-2 text-[#0A2540]"
+            className="text-sm font-oswald md:text-base mb-8 space-y-2 text-[#0A2540]"
             initial="hidden"
             animate="visible"
             variants={{
@@ -81,7 +81,7 @@ export default function Home() {
           {/* CTA Button */}
           <a
             href="/contact"
-            className="bg-[#43BCCD] text-[#0A2540] px-6 py-3 rounded-xl font-semibold shadow-sm 
+            className="bg-[#43BCCD] font-oswald text-[#0A2540] px-6 py-3 rounded-xl font-semibold shadow-sm 
               hover:bg-[#2FB2C0] hover:text-white 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#43BCCD] 
               transition transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"

@@ -6,7 +6,7 @@ export default function ServicesOverview() {
   return (
     <section
       id="services"
-      className="relative scroll-mt-[96px] md:scroll-mt-[100px] py-20 px-6 md:px-12 bg-[#0A2540] text-white"
+      className="relative font-oswald scroll-mt-[96px] md:scroll-mt-[100px] py-20 px-6 md:px-12 bg-[#0A2540] text-white"
     >
       {/* Decorative Blob Layer */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">

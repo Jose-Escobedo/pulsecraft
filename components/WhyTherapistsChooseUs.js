@@ -20,7 +20,7 @@ export default function WhyTherapistsChooseUs() {
   return (
     <section
       id="why-us"
-      className="relative scroll-mt-[96px] md:scroll-mt-[100px] py-20 px-6 md:px-12 bg-[#f3f3f3fa] text-[#0A2540]"
+      className="relative font-oswald scroll-mt-[96px] md:scroll-mt-[100px] py-20 px-6 md:px-12 bg-[#f3f3f3fa] text-[#0A2540]"
     >
       {/* Decorative blob layer only gets overflow-hidden */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">

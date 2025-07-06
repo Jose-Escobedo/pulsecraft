@@ -45,7 +45,7 @@ export default function ContactSection() {
 
   return (
     <>
-      <section className="bg-[#f3f3f3fa] text-[#0A2540] px-6 py-40 md:px-12">
+      <section className="font-oswald bg-[#f3f3f3fa] text-[#0A2540] px-6 py-40 md:px-12">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4">Let&apos;s Get in Touch</h2>
           <p className="text-lg text-center mb-12 max-w-2xl mx-auto">

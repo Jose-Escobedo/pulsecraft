@@ -42,7 +42,7 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="relative scroll-mt-[96px] md:scroll-mt-[100px] bg-[#0A2540] text-white py-16 px-6 md:px-12"
+      className="relative font-oswald scroll-mt-[96px] md:scroll-mt-[100px] bg-[#0A2540] text-white py-16 px-6 md:px-12"
     >
       {/* Blobs get overflow-hidden only */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0">

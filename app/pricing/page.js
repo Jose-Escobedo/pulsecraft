@@ -23,7 +23,7 @@ export default function PricingSection() {
     <>
       <section
         id="pricing"
-        className="pt-56 -mt-24 bg-[#f3f3f3fa] text-[#0A2540] py-20 px-6 md:px-12"
+        className="font-oswald pt-56 -mt-24 bg-[#f3f3f3fa] text-[#0A2540] py-20 px-6 md:px-12"
       >
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">

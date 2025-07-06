@@ -8,7 +8,7 @@ export const metadata = {
 export default function PrivacyPolicy() {
   return (
     <>
-    <main className="max-w-4xl mx-auto px-6 py-20 pt-56 -mt-24 text-[#0A2540]">
+    <main className="font-oswald max-w-4xl mx-auto px-6 py-20 pt-56 -mt-24 text-[#0A2540]">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
       <p className="mb-6 font-semibold">Effective Date: June 2, 2025</p>
 

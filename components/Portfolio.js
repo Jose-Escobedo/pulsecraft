@@ -20,22 +20,25 @@ const fadeInUp = {
 export default function Portfolio() {
   const projects = [
     {
-      href: "https://sage-oak-therapy.vercel.app/",
-      image: "https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-07-03%20133048.png?alt=media&token=2eed2095-644f-43e4-9e9d-8a15b2940604",
-      title: "Sage Oak Therapy",
-      desc: "A calming, earthy website designed with elegant typography, and soft tones that create a warm, welcoming experience for visitors."
+      href: 'https://sage-oak-therapy.vercel.app/',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-07-03%20133048.png?alt=media&token=2eed2095-644f-43e4-9e9d-8a15b2940604',
+      title: 'Sage Oak Therapy',
+      desc: 'A calm, brand-aligned website with earthy visuals and inviting typography.',
     },
     {
-      href: "https://tranquil-path-therapy.vercel.app/",
-      image: "https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-26%20205205.png?alt=media&token=712d8028-a969-4c86-bc76-b28c8ef16979",
-      title: "Tranquil Path Therapy",
-      desc: "A professional site with clean features and easy navigation."
+      href: 'https://tranquil-path-therapy.vercel.app/',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-26%20205205.png?alt=media&token=712d8028-a969-4c86-bc76-b28c8ef16979',
+      title: 'Tranquil Path Site',
+      desc: 'Minimalistic design with smooth layout and professional feel.',
     },
     {
-      href: "https://family-counseling-center.vercel.app/",
-      image: "https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-11%20214339.png?alt=media&token=88e6c085-f0e5-4661-a629-ed313eee0b0c",
-      title: "Golden Scales Family Therapy",
-      desc: "A modern design focused on client engagement and easy appointment booking."
+      href: 'https://family-counseling-center.vercel.app/',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-11%20214339.png?alt=media&token=88e6c085-f0e5-4661-a629-ed313eee0b0c',
+      title: 'Golden Scales Site',
+      desc: 'Modern layout with interactive flow and strong call-to-action placement.',
     },
   ];
 
@@ -44,16 +47,13 @@ export default function Portfolio() {
       id="portfolio"
       className="relative font-oswald scroll-mt-[96px] md:scroll-mt-[100px] bg-[#0A2540] text-white py-16 px-6 md:px-12"
     >
-      {/* Blobs get overflow-hidden only */}
+      {/* Decorative blob layer */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0">
-        {/* Desktop blob */}
         <img
           src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/navyblob.svg?alt=media&token=cac5fe9e-11cb-44f5-af7b-3a24032f2cb6"
           alt="Decorative blob background"
           className="hidden md:block absolute top-0 right-1/2 translate-x-1/2 w-[160%] max-w-none opacity-20"
         />
-
-        {/* Mobile blob */}
         <img
           src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/navyvertblob.svg?alt=media&token=4d261c22-b257-4200-b580-70746954e4b8"
           alt="Decorative vertical mobile blob"
@@ -62,9 +62,9 @@ export default function Portfolio() {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">Our Work</h2>
-        <p className="mb-12 max-w-3xl mx-auto text-lg">
-          Here are some examples of websites we&apos;ve designed and built for mental health professionals.
+        <h2 className="text-3xl font-bold mb-8">Recent Projects</h2>
+        <p className="mb-12 max-w-3xl mx-auto text-lg text-white/90">
+          A look at some of the custom websites we&apos;ve built for businesses and professionals across industries.
         </p>
 
         <div className="grid gap-8 md:grid-cols-3">
@@ -87,7 +87,6 @@ export default function Portfolio() {
                     fill
                     className="object-cover transition-transform duration-300 ease-in-out hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    priority={false}
                   />
                 </div>
 

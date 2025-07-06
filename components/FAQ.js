@@ -7,32 +7,32 @@ const faqs = [
   {
     question: 'How do we get started with your web design services?',
     answer:
-      "We'll begin with a discovery call to understand your goals and vision. Once aligned, we'll provide a tailored proposal and timeline to bring your website to life.",
+      "We start with a free discovery call to understand your goals, audience, and vision. Then we send over a custom proposal with deliverables, pricing, and timeline.",
   },
   {
-    question: 'How long will the web design process take?',
+    question: 'How long does the website build take?',
     answer:
-      "The timeline depends on the project's complexity. However, we'll work closely with you to ensure a smooth and timely launch.",
+      "Typical turnaround is 2–4 weeks depending on complexity and responsiveness during feedback cycles. We'll keep things clear and timely every step of the way.",
   },
   {
-    question: "What's included in your custom web design package?",
+    question: 'What&apos;s included in a custom website package?',
     answer:
-      "Our package covers everything from initial design concepts and mobile optimization to ADA compliance and ongoing support. We tailor each aspect to fit your practice's needs.",
+      "Each site includes custom design, responsive layout, performance optimization, SEO fundamentals, and support after launch. No templates. No fluff.",
   },
   {
-    question: 'Can you connect my website to my scheduling or practice management tools?',
+    question: 'Can you integrate booking, forms, or third-party tools?',
     answer:
-      'We can integrate tools like Calendly, SimplePractice, or your preferred scheduling platform — whether it’s for discovery calls or ongoing client sessions.',
+      'Yes — we can connect scheduling platforms like Calendly, forms, payment tools, and more. Just tell us what you need.',
   },
   {
-    question: 'Can you add HIPAA-compliant forms to my website?',
+    question: 'Will I be able to make updates to my site later?',
     answer:
-      'Yes. We can embed or link to your preferred HIPAA-compliant form service — whether it’s Jotform, SimplePractice, Hushmail, or another provider. This ensures your client data stays secure while still offering a seamless experience on your site.',
+      'Absolutely. We build most sites with maintainability in mind, and we can include tutorials or ongoing support depending on your preference.',
   },
   {
-    question: 'What kind of support will I receive after my website goes live?',
+    question: 'Do you offer support after the site goes live?',
     answer:
-      'We offer ongoing maintenance and support, ensuring your website remains up-to-date, secure, and fully functional.',
+      'Yes. We offer optional maintenance and support plans — covering updates, security, and small edits so you stay focused on your business.',
   },
 ];
 

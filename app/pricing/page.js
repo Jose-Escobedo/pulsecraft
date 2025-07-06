@@ -3,20 +3,21 @@ import Footer from "@/components/Footer";
 import FAQSectionComponent from '@/components/FAQSectionComponent';
 
 export const metadata = {
-  title: "Pricing Plans | Therapy Site Studio",
+  title: "Pricing Plans | PulseCraft Studio",
   description:
-    "Explore our affordable pricing plans tailored for therapists and mental health professionals. Website design, hosting, and marketing options included.",
+    "Explore our straightforward web design pricing plans. Custom websites, branding, hosting, and SEO solutions built for modern businesses.",
 };
 
 const features = [
-  ["Built for Therapists", "❌ Generic templates", "✅ Tailored to private practices"],
-  ["Setup & Edits Included", "❌ DIY setup & limited edits", "✅ Fully managed with ongoing updates"],
-  ["HIPAA-Aware Approach", "❌ Not prioritized", "✅ Mindful of confidentiality & client privacy"],
-  ["SEO Optimization", "⚠️ Basic, often ignored", "✅ SEO best practices baked in"],
-  ["Speed & Performance", "❌ Slower due to bloat & plugins", "✅ Next.js-powered, blazing fast"],
-  ["Mobile Optimization", "⚠️ Often breaks or requires extra work", "✅ Designed mobile-first from the start"],
-  ["Support & Partnership", "❌ Call center or knowledge base", "✅ Real person, same-day support"],
+  ["Tailored to Your Business", "❌ Generic templates", "✅ Built around your brand goals"],
+  ["Setup & Edits Included", "❌ DIY setup & limited edits", "✅ Fully managed, no technical headaches"],
+  ["Security-Minded Approach", "❌ Often neglected", "✅ Built with performance & privacy in mind"],
+  ["SEO Optimization", "⚠️ Basic or skipped", "✅ SEO best practices baked in"],
+  ["Speed & Performance", "❌ Slower due to plugins", "✅ Next.js-powered, blazing fast"],
+  ["Mobile Optimization", "⚠️ Often buggy", "✅ Designed mobile-first from the start"],
+  ["Real Support", "❌ Call centers or chatbots", "✅ Direct support from our core team"],
 ];
+
 
 export default function PricingSection() {
   return (
@@ -27,11 +28,12 @@ export default function PricingSection() {
       >
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Tailored Plans for Therapists & Mental Health Professionals
-          </h2>
-          <p className="text-lg mb-12 max-w-2xl mx-auto">
-            Simple, worry-free solutions designed to help you launch or grow your private practice — no tech skills needed.
-          </p>
+  Flexible Plans for Growing Brands & Businesses
+</h2>
+<p className="text-lg mb-12 max-w-2xl mx-auto">
+  Whether you&apos;re launching something new or refreshing an outdated site — our plans are built to make it easy and stress-free.
+</p>
+
 
           {/* Grid for first 3 cards */}
           <div className="grid md:grid-cols-3 gap-8 text-left">
@@ -44,8 +46,8 @@ export default function PricingSection() {
     <Rocket className="w-8 h-8 text-green-600 mb-4" />
 
     <h3 className="text-xl font-semibold mb-2 text-[#0A2540]">
-      One-Time Website + Branding
-    </h3>
+  One-Time Website + Branding
+</h3>
 
     <p className="text-3xl font-extrabold text-green-700 mb-1">
       $2,400
@@ -160,9 +162,10 @@ export default function PricingSection() {
           </p>
 
           <div className="mt-20 max-w-5xl mx-auto px-4 text-[#0A2540]">
-            <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
-              Why Therapists Choose Us Over Wix & Squarespace
-            </h3>
+         <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
+  Why Businesses Choose Us Over Wix & Squarespace
+</h3>
+
 
             {/* Desktop/Table View */}
             <div className="hidden sm:block overflow-auto rounded-xl border border-gray-200 shadow-lg">
@@ -172,7 +175,7 @@ export default function PricingSection() {
                     <th className="py-4 px-6 font-semibold">Feature</th>
                     <th className="py-4 px-6 font-semibold">Wix / Squarespace</th>
                     <th className="py-4 px-6 font-semibold bg-[#0A2540] text-white rounded-tr-xl">
-                      Therapy Site Studio
+                      Pulsecraft
                     </th>
                   </tr>
                 </thead>
@@ -216,12 +219,13 @@ export default function PricingSection() {
 
 {/* Help me decide prompt */}
 <p className="mt-6 mb-8 text-center text-gray-700 max-w-xl mx-auto">
-  Not sure which plan suits your practice best?{' '}
+  Not sure which plan fits your business best?{' '}
   <a href="/contact" className="text-blue-600 hover:underline font-semibold">
     Contact us
   </a>{' '}
-  for a free personalized consultation.
+  and we’ll walk you through it.
 </p>
+
 
 {/* CTA Button */}
 <div className="mt-12 text-center">

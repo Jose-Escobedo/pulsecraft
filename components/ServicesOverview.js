@@ -17,7 +17,7 @@ export default function ServicesOverview() {
           className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-[110%] max-w-none opacity-20"
         />
 
-        {/* Mobile vertical blob */}
+        {/* Mobile blob */}
         <img
           src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/navyvertblob.svg?alt=media&token=4d261c22-b257-4200-b580-70746954e4b8"
           alt="Decorative mobile blob"
@@ -28,10 +28,10 @@ export default function ServicesOverview() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">
-          Services Designed for Therapists and Mental Health Professionals
+          Full-Service Web Development, Done Right
         </h2>
         <p className="text-lg mb-16 max-w-3xl mx-auto text-white/90">
-          We combine modern design, HIPAA-aware best practices, and ongoing support to build websites that not only look great but also help you attract and retain clients.
+          From concept to launch, Pulsecraft delivers high-performance websites that are built to convert, scale, and impress.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -42,7 +42,7 @@ export default function ServicesOverview() {
             </div>
             <h3 className="text-xl font-semibold mb-2">Custom Website Design</h3>
             <p className="text-[#0A2540]/80">
-              Tailored, clean, and professional websites built specifically for mental health professionals.
+              Clean, responsive, and completely tailored to match your brand and business goals.
             </p>
           </div>
 
@@ -51,9 +51,9 @@ export default function ServicesOverview() {
             <div className="w-14 h-14 mx-auto mb-4 flex items-center justify-center bg-[#FFEFE8] text-[#0A2540] rounded-full">
               <SearchCheck className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">SEO & Online Visibility</h3>
+            <h3 className="text-xl font-semibold mb-2">SEO & Visibility</h3>
             <p className="text-[#0A2540]/80">
-              Optimized content and structure to help your practice show up when potential clients search online.
+              We optimize your site&apos;s structure, speed, and content to help you stand out online.
             </p>
           </div>
 
@@ -62,9 +62,9 @@ export default function ServicesOverview() {
             <div className="w-14 h-14 mx-auto mb-4 flex items-center justify-center bg-teal-300 text-white rounded-full">
               <ShieldCheck className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Secure Hosting & Maintenance</h3>
+            <h3 className="text-xl font-semibold mb-2">Hosting & Maintenance</h3>
             <p className="text-[#0A2540]/80">
-              Reliable, fast hosting with regular updates to keep your site secure and running smoothly.
+              Fast, secure hosting with ongoing support and updates to keep your site running smoothly.
             </p>
           </div>
         </div>

@@ -3,12 +3,12 @@
 import { motion } from 'framer-motion';
 import ServicesOverview from '@/components/ServicesOverview';
 import ProcessSection from '@/components/ProcessSection';
-import WhyTherapistsChooseUs from '@/components/WhyTherapistsChooseUs';
 import Portfolio from '@/components/Portfolio';
 import About from '@/components/About';
 import FAQ from '@/components/FAQ';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
+import WhyPulsecraft from '@/components/WhyPulsecraft';
 
 export default function Home() {
   return (
@@ -95,7 +95,7 @@ export default function Home() {
       {/* Sections */}
       <ProcessSection />
       <ServicesOverview />
-      <WhyTherapistsChooseUs />
+      <WhyPulsecraft />
       <Portfolio />
       <About />
       <FAQ />

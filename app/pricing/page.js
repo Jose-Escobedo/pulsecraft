@@ -105,7 +105,7 @@ export default function PricingSection() {
   </p>
 
   <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">
-    <li><span className="text-blue-600 mr-1">✓</span> Custom website designed & built for your practice</li>
+    <li><span className="text-blue-600 mr-1">✓</span> Custom website designed & built for your business</li>
     <li><span className="text-blue-600 mr-1">✓</span> Fast, secure hosting with daily backups</li>
     <li><span className="text-blue-600 mr-1">✓</span> Mobile-optimized, SEO-friendly, & ADA-aware</li>
     <li><span className="text-blue-600 mr-1">✓</span> Ongoing content edits & tech support (up to 4 updates/month)</li>

@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#1D3557" />
+        <meta name="theme-color" content="#F8F9FA" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
   <link

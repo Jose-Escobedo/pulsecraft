@@ -27,17 +27,28 @@ export default function Home() {
   transition={{ duration: 1, ease: 'easeIn' }}
   className="relative min-h-screen flex flex-col md:flex-row items-center justify-between px-6 pt-[8.3rem] md:pt-20 pb-24 md:pb-40 z-10 overflow-hidden"
 >
-  {/* Decorative wave */}
-  <div className="absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none z-0">
-    <div className="w-[110%] animate-wave" style={{ willChange: 'transform' }}>
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/layered-waves.svg?alt=media&token=30b42a0c-f3c9-407c-b03b-2576fadd3676"
-        alt="Decorative wave background"
-        className="w-full h-auto object-cover"
-        loading="lazy"
-      />
-    </div>
+{/* Decorative wave - desktop */}
+<div className="hidden md:block absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none z-0">
+  <div className="w-[110%] animate-wave" style={{ willChange: 'transform' }}>
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/layered-waves.svg?alt=media&token=30b42a0c-f3c9-407c-b03b-2576fadd3676"
+      alt="Decorative wave background (desktop)"
+      className="w-full h-auto object-cover"
+      loading="lazy"
+    />
   </div>
+</div>
+
+{/* Decorative wave - mobile */}
+<div className="block md:hidden absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none z-0">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/blob-landscape.svg?alt=media&token=e39c2352-16b4-4e6d-8585-84ef3c5caa4c"
+    alt="Decorative wave background (mobile)"
+    className="w-full h-auto object-cover"
+    loading="lazy"
+  />
+</div>
+
 
   {/* Hero Text Content */}
   <div className="w-full md:w-1/2 z-10 text-left">

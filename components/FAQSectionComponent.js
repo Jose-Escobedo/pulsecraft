@@ -35,7 +35,7 @@ export default function FAQSectionComponent() {
   return (
     <section
       id="faqsection"
-      className="bg-[#0A2540] py-20 px-6 md:px-12"
+      className="font-oswald bg-[#0A2540] py-20 px-6 md:px-12"
     >
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-extrabold text-center text-white mb-12">

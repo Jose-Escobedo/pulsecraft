@@ -15,7 +15,7 @@ const features = [
   ["SEO Optimization", "⚠️ Basic or skipped", "✅ SEO best practices baked in"],
   ["Speed & Performance", "❌ Slower due to plugins", "✅ Next.js-powered, blazing fast"],
   ["Mobile Optimization", "⚠️ Often buggy", "✅ Designed mobile-first from the start"],
-  ["Real Support", "❌ Call centers or chatbots", "✅ Direct support from our core team"],
+  ["Real Support", "❌ Call centers or chatbots", "✅ Direct help from our founder and lead developer"],
 ];
 
 
@@ -224,7 +224,7 @@ export default function PricingSection() {
           <p>{wix}</p>
         </div>
         <div>
-          <p className="text-gray-500 text-xs">Therapy Site Studio</p>
+          <p className="text-gray-500 text-xs">Pulsecraft</p>
           <p className="font-medium">{studio}</p>
         </div>
       </div>

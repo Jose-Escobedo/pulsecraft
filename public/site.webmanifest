@@ -1,10 +1,10 @@
 {
-  "name": "TherapySiteStudio",
-  "short_name": "TSS",
+  "name": "Pulsecraft",
+  "short_name": "PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0A2540",
-  "theme_color": "#0A2540",
+  "background_color": "#F8F9FA",
+  "theme_color": "#F8F9FA",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

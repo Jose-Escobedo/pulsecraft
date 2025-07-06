@@ -12,33 +12,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata = {
-  title: "TherapySiteStudio — Websites for Therapists & Psychologists",
+  title: "Pulsecraft — Custom Websites That Convert",
   description:
-    "Beautiful, stress-free websites tailored for therapists, psychologists, and mental health professionals. HIPAA-aware, modern design to attract more clients.",
+    "Modern, purpose-built websites designed to grow your brand. From strategy to launch, Pulsecraft delivers clean, high-performing digital experiences.",
   keywords: [
-    "therapist website design",
-    "psychologist websites",
-    "mental health website development",
-    "HIPAA compliant web design",
-    "private practice website",
-    "therapy web development",
-    "professional websites for therapists",
+    "web development agency",
+    "custom websites",
+    "responsive design",
+    "Next.js developer",
+    "Los Angeles web agency",
+    "branding and design",
+    "full-stack development",
+    "Pulsecraft",
   ].join(", "),
-  authors: [{ name: "TherapySiteStudio", url: "https://therapysitestudio.com" }],
+  authors: [{ name: "Pulsecraft", url: "https://pulsecraft.dev" }],
   openGraph: {
-    title: "TherapySiteStudio — Websites for Therapists & Psychologists",
+    title: "Pulsecraft — Custom Websites That Convert",
     description:
-      "Beautiful, stress-free websites tailored for therapists, psychologists, and mental health professionals.",
-    url: "https://therapysitestudio.com",
-    siteName: "TherapySiteStudio",
+      "Modern, purpose-built websites designed to grow your brand. From strategy to launch, Pulsecraft delivers clean, high-performing digital experiences.",
+    url: "https://pulsecraft.dev",
+    siteName: "Pulsecraft",
     images: [
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/TSS%20OG%20IMAGE.png?alt=media&token=6e450d0c-aae0-4d17-8432-d9566964e1f3",
-        width: 1200,
-        height: 630,
-        alt: "TherapySiteStudio branding",
+        url: "https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pulsecraft.png?alt=media&token=3185b202-42f0-4258-b13b-6dc3744ba5e8",
+        width: 1080,
+        height: 1080,
+        alt: "Pulsecraft branding",
       },
     ],
     locale: "en_US",
@@ -46,19 +46,17 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#0c0f25" />
-</head>
-
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#1D3557" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         {children}

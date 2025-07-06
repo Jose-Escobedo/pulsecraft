@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f3f3f3fa;
+  --background: #F8F9FA;
   --foreground: #171717;
 }
 
@@ -31,6 +31,7 @@ html {
     transform: translateX(-9%);
   }
 }
+
 
 .animate-wave {
   animation: waveAnimation 20s ease-in-out infinite;

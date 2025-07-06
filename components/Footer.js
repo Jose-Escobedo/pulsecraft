@@ -5,11 +5,11 @@ import Logo from "./Logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0c0f25] text-white py-12 px-6 md:px-12">
+    <footer id='footer' className="bg-[#0c0f25] text-white py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
 
         <div>
-          <Logo />
+          <Logo white={true} />
         </div>
 
         <div>
@@ -63,7 +63,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 text-center text-sm text-gray-400 border-t border-gray-600 pt-6">
-        &copy; {new Date().getFullYear()} Therapy Site Studio. All rights reserved.
+        &copy; {new Date().getFullYear()} Pulsecraft. All rights reserved.
       </div>
     </footer>
   );

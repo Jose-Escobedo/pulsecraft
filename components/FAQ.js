@@ -15,7 +15,7 @@ const faqs = [
       "Typical turnaround is 2–4 weeks depending on complexity and responsiveness during feedback cycles. We'll keep things clear and timely every step of the way.",
   },
   {
-    question: 'What&apos;s included in a custom website package?',
+    question: `What's included in a custom website package?`,
     answer:
       "Each site includes custom design, responsive layout, performance optimization, SEO fundamentals, and support after launch. No templates. No fluff.",
   },

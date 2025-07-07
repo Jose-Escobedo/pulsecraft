@@ -17,7 +17,7 @@ export default function CallToAction() {
         className="relative z-10 bg-[#B3E5FC] text-[#0A2540] py-16 px-6 md:px-12 text-center rounded-2xl shadow-xl max-w-4xl mx-auto"
       >
         <h2 className="text-4xl font-extrabold mb-6 leading-tight">
-          Ready to Grow Your Practice?
+          Ready to Grow Your Business?
         </h2>
 
         <p className="mb-10 text-lg md:text-xl text-[#0A2540]/90 max-w-2xl mx-auto">

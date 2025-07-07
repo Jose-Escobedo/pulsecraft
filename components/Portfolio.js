@@ -26,6 +26,13 @@ export default function Portfolio() {
       title: 'Sage Oak Therapy',
       desc: 'A calm, brand-aligned website with earthy visuals and inviting typography.',
     },
+      {
+      href: 'https://www.tortasmexico-studiocity.com/',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202023-06-02%20160504.png?alt=media&token=5602e1d3-d938-461c-bada-20fda88d814f',
+      title: 'Tortas Mexico Studio City Site',
+      desc: 'Restaurant Website on a Modern layout with interactive flow and strong call-to-action placement.',
+    },
     {
       href: 'https://tranquil-path-therapy.vercel.app/',
       image:
@@ -33,13 +40,7 @@ export default function Portfolio() {
       title: 'Tranquil Path Site',
       desc: 'Minimalistic design with smooth layout and professional feel.',
     },
-    {
-      href: 'https://family-counseling-center.vercel.app/',
-      image:
-        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-11%20214339.png?alt=media&token=88e6c085-f0e5-4661-a629-ed313eee0b0c',
-      title: 'Golden Scales Site',
-      desc: 'Modern layout with interactive flow and strong call-to-action placement.',
-    },
+  
   ];
 
   return (

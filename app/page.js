@@ -13,6 +13,7 @@ import WhatWeDo from '@/components/WhatWeDo';
 import FeaturesGrid from '@/components/FeaturesGrid';
 import PerformanceSection from '@/components/PerformanceSection';
 import PricingCardsHomeSection from '@/components/PricingCardsHomeSection';
+import TestimonialsSection from '@/components/Testimonials';
 
 export default function Home() {
   return (
@@ -126,7 +127,7 @@ export default function Home() {
       <ServicesOverview/>
       <WhyPulsecraft />
       <PricingCardsHomeSection/>
-      
+      <TestimonialsSection/>
       <FAQ />
       <CallToAction />
       <Footer />

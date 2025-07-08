@@ -6,7 +6,7 @@ export default function PricingCardsHomeSection() {
   return (
     <section
       id="pricing"
-      className="font-oswald bg-[#f3f3f3fa] text-[#0A2540] pt-20 py-20 px-6 md:px-12"
+      className="font-oswald bg-[#F8F9FA] text-[#0A2540] pt-20 py-20 px-6 md:px-12"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">

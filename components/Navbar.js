@@ -47,7 +47,6 @@ export default function Navbar() {
           <Link href="/#portfolio" className="hover:underline" onClick={() => setMenuOpen(false)}>Portfolio</Link>
           <Link href="/pricing" className="hover:text-[#FCA311]" onClick={() => setMenuOpen(false)}>Pricing</Link>
           <Link href="/#about" className="hover:underline" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link href="/#faq" className="hover:underline" onClick={() => setMenuOpen(false)}>FAQ</Link>
           <Link
             href="/contact"
             className="bg-[#FCA311] text-[#1D3557] px-4 py-2 rounded-lg font-semibold hover:bg-[#43BCCD] hover:text-white transition"

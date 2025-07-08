@@ -49,7 +49,7 @@ const features = [
   {
     icon: <Globe size={28} />,
     title: '100% US-Based',
-    text: 'We don`t outsource. Our team is fully remote and based in the US — delivering quality and accountability.',
+    text: 'We don&apos;t outsource. Our team is fully remote and based in the US — delivering quality and accountability.',
     linkText: 'Meet the Team',
     href: '/about',
   },
@@ -62,9 +62,13 @@ export default function FeaturesGrid() {
         {features.map((feature, i) => (
           <div
             key={i}
-            className="relative cursor-pointer rounded-2xl bg-[#F8FAFC] p-8 pt-16 min-h-[300px] shadow-md transition-all duration-300 hover:bg-[#0A2540] group"
+            className="relative cursor-pointer rounded-2xl p-8 pt-16 min-h-[300px] shadow-md bg-[#F1F2F4] overflow-hidden group transition-all duration-300"
           >
-            <div className="absolute pt-30 inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-300 pointer-events-none z-0">
+            {/* Navy hover overlay */}
+            <div className="absolute inset-0 bg-[#0A2540] opacity-0 group-hover:opacity-90 transition-opacity duration-300 z-0" />
+
+            {/* Decorative SVG Pulse overlay */}
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-300 pointer-events-none z-0">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pulsesv.svg?alt=media&token=2e5fb401-9b78-4f30-8c5a-f71da594eb02"
                 alt="Decorative pulse background"
@@ -79,15 +83,15 @@ export default function FeaturesGrid() {
 
             {/* Content */}
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-3 mt-3 text-[#0A2540] group-hover:text-white">
+              <h3 className="text-xl font-bold mb-3 mt-3 text-[#0A2540] group-hover:text-white transition-colors duration-300">
                 {feature.title}
               </h3>
-              <p className="text-[#0A2540] group-hover:text-gray-200 mb-4 text-sm leading-relaxed">
+              <p className="text-[#0A2540] group-hover:text-gray-200 mb-4 text-sm leading-relaxed transition-colors duration-300">
                 {feature.text}
               </p>
               <a
                 href={feature.href}
-                className="text-sm font-semibold underline text-[#0A2540] group-hover:text-[#43BCCD] transition-colors"
+                className="text-sm font-semibold underline text-[#0A2540] group-hover:text-[#43BCCD] transition-colors duration-300"
               >
                 {feature.linkText}
               </a>
@@ -96,12 +100,14 @@ export default function FeaturesGrid() {
         ))}
       </div>
 
-      {/* Button below the grid */}
+      {/* CTA Button */}
       <div className="max-w-6xl mx-auto mt-12 text-center">
-        <Link href="/contact" passHref  className="inline-block bg-[#43BCCD] hover:bg-[#36a1b4] text-white font-semibold py-4 px-12 rounded-lg transition-colors duration-300">
-       
-            Get Started
-          
+        <Link
+          href="/contact"
+          passHref
+          className="inline-block bg-[#43BCCD] hover:bg-[#36a1b4] text-white font-semibold py-4 px-12 rounded-lg transition-colors duration-300"
+        >
+          Get Started
         </Link>
       </div>
     </section>

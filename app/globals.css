@@ -45,6 +45,8 @@ html {
    font-family: Oswald, Helvetica, sans-serif;
 }
 
+
+
 .animate-wave {
   animation: waveAnimation 20s ease-in-out infinite;
 }

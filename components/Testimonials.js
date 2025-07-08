@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
         <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col items-start">
           <Quote className="text-[#43BCCD] w-6 h-6 mb-4" />
           <p className="text-base mb-4 leading-relaxed">
-            Jose and his team have been awesome to work with. The value they provide for the cost is unbeatable. Jose is talented and responsive. I highly recommend him for your website needs!
+        We needed a restaurant website built that showcased our menu and allowed customers to order online.  Jose has been awesome to work with. I highly recommend him for your website needs!
           </p>
           <div className="mt-auto text-sm text-[#0A2540]/80 font-semibold">
             Maria C.<br />
@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
         <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col items-start">
           <Quote className="text-[#43BCCD] w-6 h-6 mb-4" />
           <p className="text-base mb-4 leading-relaxed">
-            Pulsecraft and Jose have made the process of building a website a fun, exciting experience. He is very personable and answers your questions within a quick manner. I’ll be using him in the future.
+            Pulsecraft and Jose have made the process of building a website a fun, exciting experience. He is very helpful and answers your questions within a quick manner. I’ll be using him in the future.
           </p>
           <div className="mt-auto text-sm text-[#0A2540]/80 font-semibold">
             Diego T.<br />

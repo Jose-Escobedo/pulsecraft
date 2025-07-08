@@ -49,7 +49,7 @@ const features = [
   {
     icon: <Globe size={28} />,
     title: '100% US-Based',
-    text: 'We don&apos;t outsource. Our team is fully remote and based in the US — delivering quality and accountability.',
+    text: `We don't outsource. Our team is fully remote and based in the US — delivering quality and accountability.`,
     linkText: 'Meet the Team',
     href: '/about',
   },
@@ -68,7 +68,7 @@ export default function FeaturesGrid() {
             <div className="absolute inset-0 bg-[#0A2540] opacity-0 group-hover:opacity-90 transition-opacity duration-300 z-0" />
 
             {/* Decorative SVG Pulse overlay */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-300 pointer-events-none z-0">
+            <div className="absolute inset-0 pt-30 opacity-0 group-hover:opacity-40 transition-opacity duration-300 pointer-events-none z-0">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pulsesv.svg?alt=media&token=2e5fb401-9b78-4f30-8c5a-f71da594eb02"
                 alt="Decorative pulse background"

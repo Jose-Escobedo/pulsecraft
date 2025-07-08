@@ -40,10 +40,10 @@ export default function FAQSection() {
   return (
     <section
       id="faq"
-      className="font-oswald scroll-mt-24 bg-[#0A2540] py-20 px-6 md:px-12"
+      className="font-oswald scroll-mt-24 bg-[#F8F9FA] py-20 px-6 md:px-12"
     >
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-center text-white mb-12">
+        <h2 className="text-4xl font-extrabold text-center text-[#0c0f25] mb-12">
           Frequently Asked{' '}
           <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
             Questions
@@ -68,7 +68,7 @@ export default function FAQSection() {
                       </span>
                       <span
                         className={`transition-colors duration-300 ${
-                          open ? 'text-[#0A2540]' : 'text-white'
+                          open ? 'text-[#0A2540]' : 'text-[#0c0f25]'
                         }`}
                       >
                         {faq.question}

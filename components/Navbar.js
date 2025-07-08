@@ -18,7 +18,6 @@ export default function Navbar() {
         <Link href="/#portfolio" className="py-2 hover:text-[#FCA311] transition">Portfolio</Link>
         <Link href="/pricing" className="py-2 hover:text-[#FCA311] transition">Pricing</Link>
         <Link href="/#about" className="py-2 hover:text-[#FCA311] transition">About</Link>
-        <Link href="/#faq" className="py-2 hover:text-[#FCA311] transition">FAQ</Link>
         <Link
           href="/contact"
           className="bg-[#FCA311] text-[#1D3557] px-4 py-2 rounded-lg font-semibold hover:bg-[#43BCCD] hover:text-white transition transform hover:scale-105 hover:shadow-lg"

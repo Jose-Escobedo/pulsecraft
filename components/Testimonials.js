@@ -47,7 +47,7 @@ export default function TestimonialsSection() {
             I approached Jose with a very specific vision for our new website, and he knocked it out of the park. I was looking for a clean, original design and a faster site. He absolutely delivered.
           </p>
           <div className="mt-auto text-sm text-[#0A2540]/80 font-semibold">
-            Roberto E.<br />
+            Robert M.<br />
             <span className="text-xs font-normal text-[#0A2540]/60">Los Angeles, CA</span>
           </div>
         </div>

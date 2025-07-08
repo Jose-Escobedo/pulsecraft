@@ -107,7 +107,7 @@ export default function Home() {
   {/* Hero Image */}
   <div className="w-full lg:w-2/5 mt-10 lg:mt-0 z-10 flex justify-center">
     <img
-      src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/mockupdevicesbgremove.png?alt=media&token=6ed3fc01-a2f6-4251-ac7d-617c669653ed"
+      src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/devicebgremove.png?alt=media&token=e5e5f73a-bed3-463a-9d7c-313a3f5590be"
       alt="Device mockups of sample websites"
       className="max-w-full h-auto object-contain"
       loading="lazy"

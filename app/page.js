@@ -129,8 +129,7 @@ export default function Home() {
       <WhyPulsecraft />
       <PricingCardsHomeSection/>
       <TestimonialsSection/>
-      <BillboardCTA/>
-      <Footer />
+     
     </main>
   );
 }

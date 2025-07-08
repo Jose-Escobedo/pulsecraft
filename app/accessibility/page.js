@@ -52,7 +52,7 @@ export default function AccessibilityPage() {
         Last updated: June 4, 2025
       </p>
     </main>
-    <Footer/>
+  
     </>
   );
 }

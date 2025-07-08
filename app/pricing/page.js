@@ -256,7 +256,7 @@ export default function PricingSection() {
         </div>
       </section>
       <FAQSectionComponent />
-      <Footer />
+    
     </>
   );
 }

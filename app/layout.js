@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Pulsecraft — Custom Websites That Convert",
+  title: "Pulsecraft — Small Business Websites That Convert",
   description:
     "Modern, purpose-built websites designed to grow your brand. From strategy to launch, Pulsecraft delivers clean, high-performing digital experiences.",
   keywords: [
@@ -23,6 +23,7 @@ export const metadata = {
     "custom websites",
     "responsive design",
     "Next.js developer",
+    "small business website",
     "Los Angeles web agency",
     "branding and design",
     "full-stack development",

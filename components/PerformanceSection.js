@@ -9,37 +9,32 @@ export default function PerformanceSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* LEFT TEXT SIDE */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0A2540] mb-4">
-            Performance
-          </h2>
-          <h3 className="text-[#43BCCD] text-2xl md:text-3xl font-semibold mb-6">
-            We Build Better Websites That Perform
-          </h3>
+        <h2 className="text-xl md:text-2xl font-bold text-[#0A2540] mb-2 tracking-widest uppercase">
+  Performance
+</h2>
+
+<h3 className="text-4xl md:text-5xl font-semibold mb-6 text-[#0A2540]">
+  We Build <span className="text-[#43BCCD]">Better</span> Websites That Perform
+</h3>
+
           <p className="text-[#0A2540] text-lg leading-relaxed mb-6">
             When it comes to website load times, not very many can get the Google PageSpeed scores that we get with each and every site. Test your website load times with Google PageSpeed Insights and see what your current site is scoring right now.
           </p>
 
           {/* List of benefits */}
-          <ul className="space-y-4">
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-[#43BCCD]" size={20} />
-              <span className="text-[#0A2540] text-base leading-relaxed">
-                Better load times mean more traffic and more site conversions over time.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-[#43BCCD]" size={20} />
-              <span className="text-[#0A2540] text-base leading-relaxed">
-                Faster websites can help improve SEO and your Google Ads performance.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-[#43BCCD]" size={20} />
-              <span className="text-[#0A2540] text-base leading-relaxed">
-                Our sites load instantly in under 1 second or less, which leads to a better user experience and conversions.
-              </span>
-            </li>
-          </ul>
+         <ul className="space-y-4">
+  {[
+    "Better load times mean more traffic and more site conversions over time.",
+    "Faster websites can help improve SEO and your Google Ads performance.",
+    "Our sites load instantly in under 1 second or less, which leads to a better user experience and conversions.",
+  ].map((text, i) => (
+    <li key={i} className="flex items-center gap-3">
+      <CheckCircle className="text-[#43BCCD] min-w-[24px]" size={24} />
+      <span className="text-[#0A2540] text-base leading-relaxed">{text}</span>
+    </li>
+  ))}
+</ul>
+
         </div>
 
         {/* RIGHT IMAGE SIDE */}

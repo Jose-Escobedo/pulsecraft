@@ -22,7 +22,7 @@ export default function Portfolio() {
     {
       href: 'https://sage-oak-therapy.vercel.app/',
       image:
-        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-07-03%20133048.png?alt=media&token=2eed2095-644f-43e4-9e9d-8a15b2940604',
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-07-03%20133048.png?alt=media&token=4e1f352c-78de-467c-a463-00400c8faead',
       title: 'Sage Oak Therapy',
       desc: 'A calm, brand-aligned website with earthy visuals and inviting typography.',
     },

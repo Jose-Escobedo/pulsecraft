@@ -30,28 +30,28 @@ const features = [
     title: 'Optimized Page Speed',
     text: 'Our custom code loads fast — under 1 second — so you keep traffic and convert more leads.',
     linkText: 'More About Speed',
-    href: '/speed',
+    href: '/contact',
   },
   {
     icon: <BarChart2 size={28} />,
     title: 'SEO Services',
     text: 'We handle technical and local SEO so your business ranks and attracts more customers organically.',
     linkText: 'Learn More',
-    href: '/seo',
+    href: '/contact',
   },
  {
   icon: <BadgeDollarSign size={28} />,
   title: 'Conversion Optimization',
   text: 'We optimize layouts, copy, and user journeys to turn more visitors into paying customers.',
   linkText: 'See How We Convert',
-  href: '/conversion',
+  href: '/contact',
 },
   {
     icon: <Globe size={28} />,
     title: '100% US-Based',
     text: `We don't outsource. Our team is fully remote and based in the US — delivering quality and accountability.`,
     linkText: 'Meet the Team',
-    href: '/about',
+    href: '/contact',
   },
 ];
 

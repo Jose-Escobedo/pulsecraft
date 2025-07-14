@@ -36,8 +36,8 @@ export default function PricingCardsHomeSection() {
               {[
                 'Design And Development',
                 '$25/mo Hosting',
-                '$100 fee Per Page after 5',
-                '+$50/mo Unlimited Edits Add-on',
+                'Includes up to 5 pages. Need more? Add pages as you grow: $100/page.',
+                '+$50/mo Ongoing Maintenance & Updates Add-on',
                 '+$250 To Add A Blog',
               ].map((item, i) => (
                 <li key={i} className="flex items-start space-x-2">
@@ -70,9 +70,9 @@ export default function PricingCardsHomeSection() {
               {[
                 'Design And Development',
                 'Includes Hosting',
-                '$100 fee Per Page After 5',
+                'Includes up to 5 pages. Need more? Add pages as you grow: $100/page.',
                 '+$250 To Add A Blog',
-                'Unlimited Edits',
+                'Ongoing Maintenance & Updates',
                 '24/7 Support',
                 'Lifetime Updates',
               ].map((item, i) => (

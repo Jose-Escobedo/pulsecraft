@@ -39,13 +39,13 @@ const features = [
     linkText: 'Learn More',
     href: '/seo',
   },
-  {
-    icon: <BadgeDollarSign size={28} />,
-    title: 'Google PPC Ads',
-    text: 'We manage your ad campaigns with proven strategies to generate ROI through targeted traffic.',
-    linkText: 'Explore PPC',
-    href: '/ads',
-  },
+ {
+  icon: <BadgeDollarSign size={28} />,
+  title: 'Conversion Optimization',
+  text: 'We optimize layouts, copy, and user journeys to turn more visitors into paying customers.',
+  linkText: 'See How We Convert',
+  href: '/conversion',
+},
   {
     icon: <Globe size={28} />,
     title: '100% US-Based',

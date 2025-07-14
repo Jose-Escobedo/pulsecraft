@@ -15,7 +15,7 @@ const pricingFaqs = [
       'Yes, our plans are month-to-month. If you decide to pause or cancel, just let us know before your next billing date.',
   },
   {
-    question: 'Is hosting included in the $99/month?',
+    question: 'Is hosting included in the $129/month?',
     answer:
       'Absolutely — fast, secure hosting with daily backups, SSL certificates, and performance monitoring is all included.',
   },

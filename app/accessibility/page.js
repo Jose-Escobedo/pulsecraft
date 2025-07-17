@@ -13,7 +13,7 @@ export default function AccessibilityPage() {
       <h1 className="text-4xl font-bold mb-6">Accessibility Statement</h1>
 
       <p className="mb-4 text-lg">
-        At Therapy Site Studio, we are committed to ensuring digital accessibility for all individuals, including people with disabilities. We are continually working to improve the user experience for everyone and applying the relevant accessibility standards.
+        At Pulsecraft Web, we are committed to ensuring digital accessibility for all individuals, including people with disabilities. We are continually working to improve the user experience for everyone and applying the relevant accessibility standards.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Standards & Practices</h2>

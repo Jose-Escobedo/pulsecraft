@@ -1,9 +1,9 @@
 import ContactSection from '@/components/ContactSection';
 
 export const metadata = {
-  title: 'Contact Us | Therapy Site Studio',
+  title: 'Contact Us | Pulsecraft Web',
   description:
-    "Get in touch with Therapy Site Studio. We're here to help therapists and mental health professionals build a strong online presence.",
+    'Reach out to PulseCraftWeb — your partner in custom web design and development. Let&apos;s build your next high-converting website together.',
 };
 
 export default function ContactPage() {

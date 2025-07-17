@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Privacy Policy | Therapy Site Studio",
-  description: "Learn how Therapy Site Studio collects and protects your information.",
+  title: "Privacy Policy | Pulsecraft Web",
+  description: "Learn how Pulsecraft Web collects and protects your information.",
 };
 
 export default function PrivacyPolicy() {
@@ -13,10 +13,10 @@ export default function PrivacyPolicy() {
       <p className="mb-6 font-semibold">Effective Date: June 2, 2025</p>
 
       <p className="mb-6">
-        Therapy Site Studio (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy.
+        Pulsecraft Web Designs (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy.
         This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website{" "}
-        <a href="https://www.therapysitestudio.com" className="text-teal-600 underline" target="_blank" rel="noopener noreferrer">
-          https://www.therapysitestudio.com
+        <a href="https://www.pulsecraftweb.com" className="text-teal-600 underline" target="_blank" rel="noopener noreferrer">
+          https://www.pulsecraftweb.com
         </a>{" "}
         (&quot;Site&quot;) or use our services.
       </p>
@@ -68,8 +68,8 @@ export default function PrivacyPolicy() {
       <h2 className="text-xl font-semibold mt-6 mb-2">8. Contact</h2>
       <p>
         If you have questions about this policy, email us at:{" "}
-        <a href="mailto:support@therapysitestudio.com" className="text-teal-600 underline">
-          support@therapysitestudio.com
+        <a href="mailto:support@pulsecraftweb.com" className="text-teal-600 underline">
+          support@pulsecraftweb.com
         </a>
       </p>
     </main>

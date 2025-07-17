@@ -1,9 +1,9 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Accessibility Statement | Therapy Site Studio",
+  title: "Accessibility Statement | Pulsecraft Web",
   description:
-    "Read about the steps Therapy Site Studio takes to make its website accessible for individuals with disabilities. We are committed to inclusive, barrier-free experiences.",
+    "Read about the steps Pulsecraft Web Designs takes to make its website accessible for individuals with disabilities. We are committed to inclusive, barrier-free experiences.",
 };
 
 export default function AccessibilityPage() {
@@ -37,10 +37,10 @@ export default function AccessibilityPage() {
         <li>
           <strong>Email:</strong>{' '}
           <a
-            href="mailto:support@therapysitestudio.com"
+            href="mailto:support@pulsecraftweb.com"
             className="text-blue-600 underline"
           >
-            support@therapysitestudio.com
+            support@pulsecraftweb.com
           </a>
         </li>
         <li>

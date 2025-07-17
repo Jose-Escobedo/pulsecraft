@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Terms & Conditions | Therapy Site Studio",
-  description: "Read the Terms & Conditions for Therapy Site Studio's website and services.",
+  title: "Terms & Conditions | Pulsecraft Web",
+  description: "Read the Terms & Conditions for Pulsecraft Web's website and services.",
 };
 
 export default function TermsConditions() {
@@ -13,7 +13,7 @@ export default function TermsConditions() {
       <p className="mb-6 font-semibold">Effective Date: June 3, 2025</p>
 
       <p className="mb-6">
-        These Terms and Conditions (&quot;Terms&quot;) govern your use of Therapy Site Studio&apos;s website and services.
+        These Terms and Conditions (&quot;Terms&quot;) govern your use of Pulsecraft Web Designs&apos;s website and services.
         By using our website, you agree to be bound by these Terms.
       </p>
 
@@ -60,8 +60,8 @@ export default function TermsConditions() {
       <h2 className="text-xl font-semibold mt-6 mb-2">9. Contact</h2>
       <p>
         For questions regarding these Terms, email us at:{" "}
-        <a href="mailto:support@therapysitestudio.com" className="text-teal-600 underline">
-          support@therapysitestudio.com
+        <a href="mailto:support@pulsecraftweb.com" className="text-teal-600 underline">
+          support@pulsecraftweb.com
         </a>
       </p>
     </main>

@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import FAQSectionComponent from '@/components/FAQSectionComponent';
 
 export const metadata = {
-  title: "Pricing Plans | PulseCraft Studio",
+  title: "Pricing Plans | PulseCraft Web",
   description:
     "Explore our straightforward web design pricing plans. Custom websites, branding, hosting, and SEO solutions built for modern businesses.",
 };

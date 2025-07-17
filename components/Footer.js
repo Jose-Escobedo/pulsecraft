@@ -53,8 +53,8 @@ export default function Footer() {
             </Link>
           </p>
           <p className="text-sm text-gray-300">
-            <a href="mailto:support@therapysitestudio.com" className="hover:underline">
-              support@therapysitestudio.com
+            <a href="mailto:support@pulsecraftweb.com" className="hover:underline">
+              support@pulsecraftweb.com
             </a>
           </p>
           <p className="text-sm text-gray-300">Based in Los Angeles, CA</p>

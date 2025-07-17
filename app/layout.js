@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Pulsecraft — Small Business Websites That Convert",
+  title: "Pulsecraft Web Designs — Small Business Websites That Convert",
   description:
     "Modern, purpose-built websites designed to grow your brand. From strategy to launch, Pulsecraft delivers clean, high-performing digital experiences.",
   keywords: [
@@ -29,12 +29,12 @@ export const metadata = {
     "full-stack development",
     "Pulsecraft",
   ].join(", "),
-  authors: [{ name: "Pulsecraft", url: "https://pulsecraft.dev" }],
+  authors: [{ name: "Pulsecraft", url: "https://www.pulsecraftweb.com" }],
   openGraph: {
     title: "Pulsecraft — Custom Websites That Convert",
     description:
       "Modern, purpose-built websites designed to grow your brand. From strategy to launch, Pulsecraft delivers clean, high-performing digital experiences.",
-    url: "https://pulsecraft.dev",
+    url: "https://www.pulsecraftweb.com",
     siteName: "Pulsecraft",
     images: [
       {

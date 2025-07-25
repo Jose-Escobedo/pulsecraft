@@ -53,19 +53,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#F8F9FA" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+
+  <link rel="manifest" href="/site.webmanifest" />
+
+
+  <meta name="theme-color" content="#F8F9FA" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
     rel="stylesheet"
   />
-      </head>
+</head>
+
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         {children}

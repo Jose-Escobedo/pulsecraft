@@ -62,7 +62,7 @@ export default function Home() {
     </h1>
 
     <p className="font-oswald-light lg:w-4/5 text-lg lg:text-2xl mb-8 text-[#0A2540]">
-     No page builders. No shortcuts. Just high-performing, hand-coded websites built to grow your business. Starting at $129/mo.
+     No page builders. No shortcuts. Just high-performing, hand-coded websites built to grow your business. Starting at $99/mo.
     </p>
 <motion.ul
   className="text-sm font-oswald lg:text-base mb-8 space-y-2 text-[#0A2540] flex flex-col items-center lg:items-start justify-center text-center lg:text-left"

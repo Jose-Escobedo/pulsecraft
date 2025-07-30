@@ -63,7 +63,7 @@ export default function PricingCardsHomeSection() {
             <Globe className="w-8 h-8 text-blue-600 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-[#0A2540]">Website + Hosting</h3>
             <p className="text-3xl font-extrabold text-blue-700 mb-4 border-b-4 border-blue-400 pb-2">
-              $129
+              $99
               <span className="text-base font-medium text-[#0A2540] ml-1">/mo</span>
             </p>
             <ul className="text-sm space-y-2 mb-6 text-[#0A2540]">

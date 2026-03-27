@@ -73,12 +73,25 @@ export default function RootLayout({ children }) {
   />
 </head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar />
-        {children}
-         <BillboardCTA/>
-      <Footer />
-      </body>
+<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+  <Navbar />
+  {children}
+  <BillboardCTA />
+  <Footer />
+
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=G-26Z1NVG5SL"
+    strategy="afterInteractive"
+  />
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-26Z1NVG5SL');
+    `}
+  </Script>
+</body>
     </html>
   );
 }

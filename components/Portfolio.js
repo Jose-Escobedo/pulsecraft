@@ -19,6 +19,14 @@ const fadeInUp = {
 
 export default function Portfolio() {
   const projects = [
+      {
+  href: 'https://redaxetreeservices.com/',
+  image:
+    'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202026-04-05%20202924.png?alt=media&token=533dd2dd-5643-4914-962b-5cd0305bcf43',
+  title: 'Red Axe Tree Services',
+  desc: 'Professional tree service website with bold branding, clear service sections, and strong local call-to-action focus.',
+},
+ 
     {
       href: 'https://sage-oak-therapy.vercel.app/',
       image:
@@ -26,13 +34,14 @@ export default function Portfolio() {
       title: 'Sage Oak Therapy',
       desc: 'A calm, brand-aligned website with earthy visuals and inviting typography.',
     },
-      {
+     {
       href: 'https://mern-tortas-frontend.vercel.app/',
       image:
         'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202023-06-02%20160504.png?alt=media&token=5602e1d3-d938-461c-bada-20fda88d814f',
       title: 'Tortas Mexico Studio City Site',
       desc: 'Restaurant Website on a Modern layout with interactive flow and strong call-to-action placement.',
     },
+    
     {
       href: 'https://tranquil-path-therapy.vercel.app/',
       image:
@@ -40,6 +49,7 @@ export default function Portfolio() {
       title: 'Tranquil Path Site',
       desc: 'Minimalistic design with smooth layout and professional feel.',
     },
+  
   
   ];
 
@@ -68,7 +78,7 @@ export default function Portfolio() {
           A look at some of the custom websites we&apos;ve built for businesses and professionals across industries.
         </p>
 
-        <div className="grid gap-8 md:grid-cols-3">
+       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {projects.map(({ href, image, title, desc }, i) => (
             <motion.div
               key={i}

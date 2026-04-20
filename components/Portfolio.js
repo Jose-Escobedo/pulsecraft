@@ -43,10 +43,10 @@ export default function Portfolio() {
     },
     
     {
-      href: 'https://tranquil-path-therapy.vercel.app/',
+      href: 'https://championandchamp.com',
       image:
-        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202025-06-26%20205205.png?alt=media&token=712d8028-a969-4c86-bc76-b28c8ef16979',
-      title: 'Tranquil Path Site',
+        'https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/Screenshot%202026-04-19%20235038.png?alt=media&token=49bb6461-0525-45c8-a221-47f682249617',
+      title: 'LA Contractor Site',
       desc: 'Minimalistic design with smooth layout and professional feel.',
     },
   

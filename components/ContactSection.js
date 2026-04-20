@@ -4,7 +4,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="font-oswald bg-[#F8F9FA] text-[#0A2540] px-6 py-24 md:px-12"
+      className="bg-[#F8F9FA] font-oswald max-w-4xl mx-auto px-6 py-20 pt-56 -mt-24 text-[#0A2540]"
     >
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Book a Free Consultation</h2>

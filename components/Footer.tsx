@@ -4,9 +4,11 @@ import Logo from './Logo';
 
 const navLinks = [
   { href: '/#services', label: 'Services' },
+  { href: '/solutions', label: 'Industries' },
   { href: '/#portfolio', label: 'Portfolio' },
   { href: '/#process', label: 'Process' },
   { href: '/pricing', label: 'Pricing' },
+  { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
 ];
 

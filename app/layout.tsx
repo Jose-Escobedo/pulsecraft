@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import SEOSchema from '@/components/SEOSchema';
 
 const syne = Syne({
   subsets: ['latin'],
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#080E1C" />
+        <SEOSchema organization localBusiness />
       </head>
       <body className="font-body antialiased bg-bg text-primary">
         <Navbar />

@@ -12,6 +12,7 @@ export default function Logo({ white = false }: LogoProps) {
         src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pulsecraftwhite.png?alt=media&token=5ab31648-c126-4e4e-986e-5d9bd3a4b767"
         alt="Pulsecraft"
         fill
+        sizes="160px"
         className="object-contain"
         priority
       />
@@ -22,6 +23,7 @@ export default function Logo({ white = false }: LogoProps) {
         src="https://firebasestorage.googleapis.com/v0/b/tortas-bffc7.appspot.com/o/pulsecraftwhite.png?alt=media&token=5ab31648-c126-4e4e-986e-5d9bd3a4b767"
         alt="Pulsecraft"
         fill
+        sizes="180px"
         className="object-contain"
         priority
       />

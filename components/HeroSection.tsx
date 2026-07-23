@@ -45,16 +45,13 @@ export default function HeroSection() {
               Los Angeles Web Agency
             </motion.span>
 
-            <motion.h1
-              variants={item}
-              className="text-5xl sm:text-6xl lg:text-7xl xl:text-[82px] font-display font-bold leading-[1.04] tracking-tight mb-6"
-            >
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-[82px] font-display font-bold leading-[1.04] tracking-tight mb-6">
               Custom Websites<br />
               That{' '}
               <span className="text-accent drop-shadow-[0_0_28px_rgba(0,216,255,0.45)]">
                 Convert
               </span>
-            </motion.h1>
+            </h1>
 
             <motion.p
               variants={item}
@@ -119,6 +116,7 @@ export default function HeroSection() {
                 alt="Device mockups showing sample websites built by Pulsecraft"
                 width={580}
                 height={460}
+                sizes="(min-width: 1024px) 520px, (min-width: 640px) 460px, 90vw"
                 className="relative z-10 w-full max-w-[460px] lg:max-w-[520px] h-auto object-contain drop-shadow-[0_24px_40px_rgba(0,0,0,0.5)]"
                 priority
               />

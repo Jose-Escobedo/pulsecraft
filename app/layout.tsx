@@ -3,7 +3,7 @@ import { Syne, DM_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const syne = Syne({
   subsets: ['latin'],
@@ -65,18 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
 
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-26Z1NVG5SL"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-26Z1NVG5SL');
-          `}
-        </Script>
+        <GoogleAnalytics gaId="G-26Z1NVG5SL" />
       </body>
     </html>
   );

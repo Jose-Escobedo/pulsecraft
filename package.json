@@ -2,6 +2,13 @@
   "name": "therapysitestudio",
   "version": "0.1.0",
   "private": true,
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "not dead"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -11,6 +18,8 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^2.2.4",
+    "@next/third-parties": "^16.2.11",
+    "critters": "^0.0.23",
     "framer-motion": "^12.16.0",
     "lucide-react": "^0.511.0",
     "next": "^16.2.1",

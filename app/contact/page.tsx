@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
-import { Mail, Clock, Instagram, Linkedin } from 'lucide-react';
+import Link from 'next/link';
+import { Mail, Phone, Clock, MapPin, Instagram, Linkedin } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
+import { locations } from '@/data/locations';
 
 export const metadata: Metadata = {
   title: "Contact | Pulsecraft Web",
@@ -72,6 +74,20 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-start gap-3.5">
                     <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
+                      <Phone size={15} className="text-accent" aria-hidden />
+                    </div>
+                    <div>
+                      <p className="text-xs font-body text-muted mb-1">Phone</p>
+                      <a
+                        href="tel:+12139156556"
+                        className="text-sm font-body text-primary hover:text-accent transition-colors duration-200"
+                      >
+                        (213) 915-6556
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3.5">
+                    <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
                       <Clock size={15} className="text-accent" aria-hidden />
                     </div>
                     <div>
@@ -79,7 +95,35 @@ export default function ContactPage() {
                       <p className="text-sm font-body text-primary">Within 24 hours</p>
                     </div>
                   </div>
+                  <div className="flex items-start gap-3.5">
+                    <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
+                      <MapPin size={15} className="text-accent" aria-hidden />
+                    </div>
+                    <div>
+                      <p className="text-xs font-body text-muted mb-1">Based in</p>
+                      <p className="text-sm font-body text-primary">Los Angeles, CA</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              {/* Service area */}
+              <div className="bg-surface border border-white/[0.07] rounded-2xl p-7">
+                <h3 className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-muted mb-5">
+                  Areas We Serve
+                </h3>
+                <ul className="flex flex-wrap gap-2" aria-label="Cities served">
+                  {locations.map((location) => (
+                    <li key={location.slug}>
+                      <Link
+                        href={`/web-design/${location.slug}`}
+                        className="inline-block text-xs font-body text-muted bg-elevated border border-white/[0.07] rounded-full px-3 py-1.5 hover:text-accent hover:border-accent/30 transition-all duration-200"
+                      >
+                        {location.city}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Social links */}

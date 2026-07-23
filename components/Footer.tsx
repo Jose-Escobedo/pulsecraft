@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Instagram, Linkedin } from 'lucide-react';
 import Logo from './Logo';
+import { locations } from '@/data/locations';
 
 const navLinks = [
   { href: '/#services', label: 'Services' },
@@ -103,7 +104,22 @@ export default function Footer() {
                   support@pulsecraftweb.com
                 </a>
               </li>
-              <li className="text-muted">Los Angeles, CA</li>
+              <li>
+                <a
+                  href="tel:+12139156556"
+                  className="text-muted hover:text-primary transition-colors duration-200"
+                >
+                  (213) 915-6556
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/web-design"
+                  className="text-muted hover:text-primary transition-colors duration-200"
+                >
+                  Los Angeles, CA
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/contact"
@@ -115,6 +131,26 @@ export default function Footer() {
             </ul>
           </div>
 
+        </div>
+      </div>
+
+      {/* Service area strip — internal links for local SEO + NAP consistency */}
+      <div className="border-t border-white/[0.07] bg-elevated/40">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-8 py-5">
+          <p className="text-xs font-body text-muted text-center sm:text-left">
+            <span className="text-muted/70">Proudly serving:</span>{' '}
+            {locations.map((location, i) => (
+              <span key={location.slug}>
+                <Link
+                  href={`/web-design/${location.slug}`}
+                  className="hover:text-accent transition-colors duration-200"
+                >
+                  {location.city}
+                </Link>
+                {i < locations.length - 1 && <span className="text-muted/40"> · </span>}
+              </span>
+            ))}
+          </p>
         </div>
       </div>
 

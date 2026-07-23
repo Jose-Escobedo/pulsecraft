@@ -7,16 +7,34 @@ import type { FAQItem } from '@/components/FAQSection';
 const ORG_NAME = 'Pulsecraft';
 const ORG_URL = 'https://www.pulsecraftweb.com';
 const ORG_LOGO = 'https://www.pulsecraftweb.com/android-chrome-512x512.png';
-const ORG_PHONE = '+1-000-000-0000'; // TODO: real support line
+const ORG_PHONE = '+1-213-915-6556';
 const ORG_EMAIL = 'support@pulsecraftweb.com';
+
+// Service-area business: no public street address, per Google's guidance for
+// SABs (hide the exact address in GBP too, and rely on areaServed instead).
+// If Pulsecraft ever opens a public office, add streetAddress + postalCode
+// here and un-hide the address in GBP to match.
 const ORG_ADDRESS = {
   addressLocality: 'Los Angeles',
   addressRegion: 'CA',
   addressCountry: 'US',
-  // TODO: add streetAddress + postalCode once you have a public business address
 };
+
+// Cities actively targeted by /web-design/[city] landing pages — keep this
+// list in sync with data/locations.ts.
+const ORG_AREA_SERVED = [
+  'Los Angeles',
+  'Santa Monica',
+  'Beverly Hills',
+  'Pasadena',
+  'Downtown Los Angeles',
+  'Long Beach',
+].map((city) => ({ '@type': 'City', name: city }));
+
 const ORG_SAME_AS: string[] = [
-  // TODO: add real profile URLs, e.g. 'https://www.linkedin.com/company/pulsecraft'
+  'https://instagram.com/pulsecraftweb',
+  'https://linkedin.com/company/pulsecraft',
+  'https://share.google/Vbgxce1Vwo7gvVHti', // Google Business Profile
 ];
 
 export interface ArticleSchemaProps {
@@ -79,6 +97,7 @@ export default function SEOSchema({
         '@type': 'PostalAddress',
         ...ORG_ADDRESS,
       },
+      areaServed: ORG_AREA_SERVED,
     });
   }
 

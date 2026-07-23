@@ -43,7 +43,7 @@ export default function WhyPulsecraft() {
             </p>
 
             {/* Stats row */}
-            <div className="grid grid-cols-3 gap-4" aria-label="Key metrics">
+            <div className="grid grid-cols-3 gap-4" role="group" aria-label="Key metrics">
               {stats.map(({ value, label }) => (
                 <div
                   key={label}

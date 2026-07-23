@@ -57,7 +57,7 @@ export default function Testimonials() {
               className="bg-surface border border-white/[0.07] rounded-2xl p-8 flex flex-col hover:border-accent/20 hover:shadow-[0_0_32px_rgba(0,216,255,0.05)] transition-all duration-300"
             >
               {/* Stars */}
-              <div className="flex gap-1 mb-5" aria-label="5 out of 5 stars">
+              <div className="flex gap-1 mb-5" role="img" aria-label="5 out of 5 stars">
                 {Array.from({ length: 5 }).map((_, j) => (
                   <Star key={j} size={14} className="fill-accent text-accent" aria-hidden />
                 ))}

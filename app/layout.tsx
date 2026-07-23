@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 
 const syne = Syne({
   subsets: ['latin'],
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
 
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-26Z1NVG5SL"

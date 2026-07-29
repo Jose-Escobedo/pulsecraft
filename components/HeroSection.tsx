@@ -24,9 +24,11 @@ export default function HeroSection() {
       {/* Subtle grid texture */}
       <div className="absolute inset-0 pointer-events-none select-none opacity-[0.03] hero-grid" />
 
-      {/* Ambient glow */}
-      <div className="absolute top-1/4 left-1/4 w-[700px] h-[500px] rounded-full bg-accent/5 blur-[140px] pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-accent/3 blur-[100px] pointer-events-none" />
+      {/* Ambient glow — smaller blur radius on mobile: large blur filters are
+          expensive to rasterize on throttled low-end mobile CPUs and were
+          competing with the LCP text for paint time */}
+      <div className="absolute top-1/4 left-1/4 w-[700px] h-[500px] rounded-full bg-accent/5 blur-[60px] lg:blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-accent/3 blur-[50px] lg:blur-[100px] pointer-events-none" />
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 lg:px-8 w-full pt-28 pb-16 lg:pt-36 lg:pb-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -48,7 +50,11 @@ export default function HeroSection() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-[82px] font-display font-bold leading-[1.04] tracking-tight mb-6">
               Custom Websites<br />
               That{' '}
-              <span className="text-accent drop-shadow-[0_0_28px_rgba(0,216,255,0.45)]">
+              {/* text-shadow instead of the drop-shadow filter utility: filter-based
+                  drop-shadow requires rasterizing this element to an offscreen buffer
+                  before it can paint, which is costly on throttled mobile CPUs and
+                  was delaying LCP (this span is the mobile LCP element). */}
+              <span className="text-accent [text-shadow:0_0_28px_rgba(0,216,255,0.45)]">
                 Convert
               </span>
             </h1>
